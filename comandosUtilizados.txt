@@ -1,0 +1,30 @@
+920  git init
+  921  git branch -M main
+  922  git remote add origin https://github.com/VivianRojas/20230605-VivianRojas.git
+  923  touch terminal/resume.txt hardware/resume.txt
+  924  touch comandos.txt main.js index.html
+  925  git add .
+  926  git commit -m "commit 01 VivianRojas"
+  927  git push origin main
+  928  git branch feature01
+  929  git checkout feature01
+  930  mkdir terminal hardware
+  931  touch terminal/resume.txt hardware/resume.txt
+  932  git add .
+  933  git commit -m "commit 02 VivianRojas"
+  934  git push origin feature01
+  935  git branch feature02
+  936  git add .
+  937  git status
+  938  git commit -m "commit 03 VivianRojas"
+  939  git push origin feature02
+  940  git checkout feature02
+  941  git add .
+  942  git commit -m "commit 03 VivianRojas"
+  943  git push origin feature02
+  944  git checkout main
+  945  rm comandos.txt comandosUtilizados.txt
+  946  mkdir comandos.txt
+  947  rmdir comandos.txt
+  948  touch comandos.txt
+  949  mv comandos.txt comandosUtilizados.txt
