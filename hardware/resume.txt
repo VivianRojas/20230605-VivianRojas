@@ -1,0 +1,5 @@
+partes internas
+1. CPU
+2. Zocket
+3. tarjeta gráfica
+
